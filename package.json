@@ -1,0 +1,26 @@
+{
+  "name": "BackEnd21-objects-classes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ZlyiUcra/BackEnd21-objects-classes.git",
+  "author": "ZlyiUcra <oleksandr.gochu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon --inspect dist/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.7.14",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
